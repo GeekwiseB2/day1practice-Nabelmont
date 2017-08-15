@@ -101,7 +101,7 @@
     background-color: #1201e1;
   }
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 575px) {
   .header {
     background-color: #fb01e1;
   }
