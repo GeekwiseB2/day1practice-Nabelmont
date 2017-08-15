@@ -96,11 +96,12 @@
 
 /*Media Queries start*/
 
-@media /*<---Rulee*/screen/*<---Media*/ and (min-width: 600px) {
+@media /*<---Rulee*/screen/*<---Media*/ and (min-width: 768px) {
    .aside {
     background-color: #1201e1;
   }
-
+}
+@media screen and (min-width: 375px) {
   .header {
     background-color: #fb01e1;
   }
