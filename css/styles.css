@@ -11,7 +11,7 @@
   border-color: #000;
 }
 
-.col-sm-12 {
+.header {
   height: 150px;
   background-color: #2400ff;
   border-style: solid;
@@ -19,7 +19,7 @@
   vertical-align: middle;
 }
 
-.col-md-12 {
+.nav {
   height: 50px;
   background-color: #008400;
   border-style: solid;
@@ -27,7 +27,7 @@
   vertical-align: middle;
 }
 
-.col-md-7 {
+.content {
   height: 200px;
   background-color: #ff0000;
   border-style: solid;
@@ -35,7 +35,7 @@
   vertical-align: middle;
 }
 
-.col-md-5 {
+.aside {
   height: 200px;
   background-color: #00ffff;
   border-style: solid;
@@ -91,4 +91,18 @@
   height: 50px;
   background-color: #000;
   vertical-align: middle;
+}
+
+
+/*Media Queries start*/
+
+@media /*<---Rulee*/screen/*<---Media*/ and (min-width: 768px) {
+   .aside {
+    background-color: #1201e1;
+  }
+}
+@media screen and (min-width: 575px) {
+  .header {
+    background-color: #fb01e1;
+  }
 }
